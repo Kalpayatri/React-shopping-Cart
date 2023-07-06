@@ -1,10 +1,14 @@
 import React from "react";
-
-const About=()=>{
-    return(
-        <div>
-            About
-        </div>
-    )
-}
-export default About
+import Nav from "./Nav";
+import Main from "../component";
+const About = () => {
+  return (
+    <div>
+      <Nav />
+      <Main
+      heading="About Us"
+      />
+    </div>
+  );
+};
+export default About;
